@@ -8,7 +8,7 @@ def danh_gia_nhan_su() -> None:
     ho_va_ten = input("Nhap ho va ten nhan vien: ")
     diem_hieu_suat = float(input("Nhap diem (0.0 - 10.0): "))
 
-    if ho_va_ten.isdigit() or len(ho_va_ten) < 3:
+    if ho_va_ten.isdigit() or len(ho_va_ten) < 3:                   # Them kiem tra dieu kien nhap lieu
         print("Loi: Ho va ten khong hop le")
         return
     else:
