@@ -1,0 +1,20 @@
+st.title(): để đặt tiêu đề cho trang Web
+st.write(): Hiển thị nội dung và chữ chú thích
+st.text_input(): Tạo ô nhập liệu cho người dùng, nhập định dạng String
+st.number_input(): Tạo ô nhập liệu cho người dùng, nhận định dạng Int hoặc Float, có thể thêm min_value và max_value để tạo giới hạn nhập liệu và step để tạo bước nhảy
+st.button(): Tạo nút bấm để tương tác với Web
+st.success(), st.warning(), st.error(), st.info(): Hiển thị thông tin sau khi tương tác với Web
+st.slider(): Tạo thanh trượt lựa chọn, nhận giá trị từ min_value đến max_value, giá trị mặc định là value
+st.selectbox(): Tạo hộp (dạng hộp thả xuống) chọn 1 giá trị từ danh sách có sẵn, tham so dau tien la label (tieu de o chon), tham so thu 2 la options (danh sach lua chon)
+st.session_state["biến"] = <giá_trị>: Khởi tạo giá trị mặc định, ghi nhớ nó để khi chạy không bị quên
+st.sidebar.header(): Để tạo thanh sidebar và điền tiêu đề ở trên nó
+st.sidebar.radio(): st.radio() hiển thị các nút tròn chọn một (giống nút radio trên bảng điều khiển) để người dùng nhìn thấy hết các phương án ngay lập tức.
+st.columns(truyền số nguyên): Chia khu vực chính của trang Web thành số cột tương ứng
+st.subheader(): Tạo tiêu đề con của cột
+st.dataframe(): Hiển thị danh sách dạng bảng trực quan trên giao diện Web, nhận tham số 1 là định dạng List chứa Dict hoặc nhiều dạng dữ liệu khác, và tham số 2 là width="stretch"
+st.caption(): Hiển thì thông tin
+st.form(): Gom các ô nhập liệu lại thành một form, chỉ khi bấm nút Submit bên trong form thì mới xử lý
+st.checkbox(): Để bật / tắt tùy chọn nhanh
+st.form_submit_button(): Để tổng hợp và xử lý thông tin bên trong form
+@st.cache_data đặt trên hàm để ghi nhớ dữ liệu tính toán khi gọi lại cùng 1 đầu vào
+st.json(): Hiển thị dữ liệu định dạng JSON trên giao diện Web
